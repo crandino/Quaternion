@@ -182,9 +182,9 @@ int main(int argc, char **argv)
 	Quaternion q2("q2", a2, { b2, c2, d2 });
 	Quaternion q3("q3", a3, { b3, c3, d3 });
 	Quaternion q4("q4", a4, { b4, c4, d4 });
-	Quaternion q5("q5", 0 , { 0, 4.0f, 1.0f });
-	Quaternion p0("p0", 0, { 9.0f, 8.0f, 0.0f });
-	Quaternion p1("p0", 0, { 10.0f, 7.0f, 1.0f });
+	Quaternion q5("q5", 0.0f , { 0.0f, 4.0f, 1.0f });
+	Quaternion p0("p0", 0.0f, { 9.0f, 8.0f, 0.0f });
+	Quaternion p1("p0", 0.0f, { 10.0f, 7.0f, 1.0f });
 
 	printf("List of quaternion operations:\n");
 	(q1 * q2).printQuat();
